@@ -1,0 +1,49 @@
+
+CREATE DATABASE parcial2_A00811827;
+
+USE parcial2_A00811827;
+
+CREATE TABLE Alumnos (
+
+     Id INT NOT NULL AUTO_INCREMENT,
+
+     Nombre CHAR(150) NOT NULL,
+
+     Identificador CHAR(15) NOT NULL,
+
+     Email CHAR(80),
+
+     Carrera CHAR(50),
+
+     PRIMARY KEY (id)
+
+);
+
+
+INSERT INTO Alumnos(Nombre, Identificador, Email, Carrera)
+
+VALUES('Cinthia Portillo', 'A00811827','cyn@gmail.com','ISDR'),
+('Juan García', 'A01345786', 'juanga@gmail.com','CPF'),
+('Ximena Gallardo', 'A02906726', 'xime@gmail.com','IMT'),
+('Ivan Rivera', 'A23467820', 'ivancho@gmail.com','IBM'),
+('Luis Neri', 'A00783478', 'neril@gmail.com','IMA'),
+('Jessica Hernandez', 'A13036748', 'jessh@gmail.com','IDS');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
